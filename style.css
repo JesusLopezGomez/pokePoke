@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(0, 0, 0);
+}
+
+.container{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 7px;
+    width: 400px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+}
+
+.title{
+    position: relative;
+    top:3%;
+    left: 27%;
+    width: 10px;
+    background-color: white;
+    margin-bottom: 7%;
+    text-shadow: 1px 1px 2px black;
+}
+
+.selectPoke{
+    position: relative;
+    left: 27%;
+    background-color: white;
+    border-radius: 7px;
+    padding: 5px;
+    font-size: 10pt;
+    border-width: 2px;
+}
+
+.selectPoke:hover{
+    border-color: rgb(80, 4, 4);
+}
+
+option{
+    background-color: white;
+    font-size: 11pt;
+    padding: 5px;
+    
+}
+
+.imgPokemon, img{
+    position: relative;
+    left: 27%;
+    width: 120px;
+    background-color: white;
+}
+
+.defauShiny{
+    margin-top: 7%;
+    position: relative;
+    left: 50%;
+    font-weight: bold;
+    background-color: white;
+}
+
+.defauShiny:nth-last-of-type(1){
+    text-shadow: 1px 1px 2px rgb(153, 255, 179);
+}
